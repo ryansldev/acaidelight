@@ -15,7 +15,8 @@ export default function Home() {
       
       <section>
         <div className="container flex items-center min-h-[100dvh] justify-center">
-          <Image src="/assets/logo.png" alt="Logo" height={512} width={512} />
+          <Image src="/assets/logo.png" alt="Logo" height={400} width={400} />
+          <h1 className="sm:text-5xl">O melhor açaí da cidade</h1>
         </div>
       </section>
     </main>
