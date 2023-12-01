@@ -13,7 +13,7 @@ export default function Home() {
         <title>Açaí Delight | O melhor açaí da cidade</title>
       </Head>
       
-      <section className="">
+      <section>
         <div className="container flex items-center min-h-[100dvh] justify-center">
           <Image src="/assets/logo.png" alt="Logo" height={512} width={512} />
         </div>
