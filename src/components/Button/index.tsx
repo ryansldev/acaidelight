@@ -14,7 +14,7 @@ export default function Button({
   return (
     <button
       type={htmlType}
-      className={`${type === "primary" ? "bg-depurple-800 text-white" : "bg-degreen-500 text-black" } uppercase shadow-lg hover:scale-110 transition px-8 py-4 font-bold rounded-lg`}
+      className={`${type === "primary" ? "bg-depurple-800 text-white" : "bg-degreen-500 text-black" } uppercase shadow-lg hover:scale-110 transition px-8 py-4 text-[20px] font-bold rounded-lg`}
     >
       {children}
     </button>
