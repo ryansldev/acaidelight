@@ -17,10 +17,10 @@ export default function Home() {
 
       <section className="py-20 bg-depurple-800 flex min-h-[100dvh]">
         <div className="mx-auto flex items-center justify-center gap-6 rounded-lg flex-wrap max-w-[90dvw]">
-          <div className="flex flex-col gap-4 bg-white p-10 max-h-[350px] rounded-lg">
+          <div className="flex flex-col gap-4 bg-white p-10 max-h-[454px] max-w-[570px] rounded-lg">
             <Image src="/assets/logo.png" alt="Logo" height={115} width={450} />
-            <h1 className="sm:text-5xl text-3xl text-depurple-800 font-bold">O melhor açaí da cidade<span className="text-degreen-500">.</span></h1>
-            <Link passHref href="#" target="_blank">
+            <h1 className="sm:text-6xl text-5xl text-depurple-800 font-bold">Melhor açaí da cidade<span className="text-degreen-500">.</span></h1>
+            <Link className="mt-4" passHref href="#" target="_blank">
               <Button>
                 Preciso provar
               </Button>
